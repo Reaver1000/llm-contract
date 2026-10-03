@@ -73,6 +73,8 @@ Cases are small JSON files: an input text, a schema name, expected values with m
 
 The repo ships five cases: two mock cases exercising the retry paths, and three live cases parsing real German and English job postings, the demo domain.
 
+All five cases pass against `claude-sonnet-4-6` on a real run, including the live postings. The full report with extracted output is in `evals/results/`.
+
 ## Extend
 
 Add a schema:
