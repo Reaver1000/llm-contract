@@ -1,0 +1,13 @@
+{
+  "name": "live-smartclip-junior-tpo-data",
+  "schema": "jobposting",
+  "mode": "live",
+  "input_file": "postings/smartclip_tpo_data.txt",
+  "expect": {
+    "title": {"match": "contains", "value": "product owner"},
+    "company": {"match": "contains", "value": "smartclip"},
+    "remote_policy": {"match": "one_of", "value": ["remote", "hybrid"]},
+    "german_level": {"match": "one_of", "value": ["B1", "B2", "C1", "C2", "required", "unknown"]},
+    "salary_min": {"match": "is_null"}
+  }
+}

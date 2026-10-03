@@ -1,0 +1,13 @@
+Junior Technical Product Owner (f/m/d) - Data - smartclip Europe GmbH
+
+Engineering: Data Engineering · Berlin · Fully Remote
+
+Remote in our day-to-day work. On-site when it matters. We work remote by default. For larger features, architectural decisions, and real brainstorming sessions, we come together in Berlin.
+
+The Challenge. Data Services sind der Maschinenraum von smartclip. Wenn die Daten nicht fließen, funktioniert das gesamte System nicht. Wir suchen keinen passiven Koordinator, sondern einen Junior Technical Product Owner, der Lust darauf hat, dazuzulernen, mutig genug ist, die schwierigen Fragen zu stellen, und dafür brennt, Dinge auch im großen Maßstab zuverlässig zum Laufen zu bringen.
+
+Your Skills. Wir legen mehr Wert auf Lernbereitschaft und Eigenverantwortung als auf einen perfekten Lebenslauf. Zeig deinen Ehrgeiz: Bring erste Erfahrung als TPO oder PM mit, oder zeig uns deine technische Affinität und deinen starken Antrieb. Sprich die Sprache der Technik: Beherrsche die Grundlagen von TDD, ETL und Monitoring (Grafana, Graylog). Noch nicht alles bekannt? Dann lerne es schnell. Kommuniziere präzise und sicher in einem agilen Umfeld.
+
+Bonus XP. Bring Erfahrung mit Daten-Pipelines, Microservices oder aus der AdTech-Welt mit. Noch nicht? Dann komm mit der Bereitschaft, es von den Besten zu lernen.
+
+Benefits. 30 Tage Urlaub, Smart Fridays (4-Tage-Woche möglich), Mobilitätsangebote, Mental-Health-Support, Corporate Benefits, RTL+-Zugang.

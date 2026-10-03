@@ -1,0 +1,12 @@
+{
+  "name": "live-customlytics-junior-data-engineer",
+  "schema": "jobposting",
+  "mode": "live",
+  "input_file": "postings/trg_data_engineer.txt",
+  "expect": {
+    "title": {"match": "contains", "value": "data"},
+    "remote_policy": {"match": "one_of", "value": ["remote", "hybrid"]},
+    "min_years_experience": {"match": "is_null"},
+    "english_level": {"match": "one_of", "value": ["required", "B2", "C1", "C2", "native", "unknown"]}
+  }
+}

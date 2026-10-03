@@ -1,0 +1,15 @@
+{
+  "name": "harness-retry-on-bad-json",
+  "schema": "jobposting",
+  "mode": "mock",
+  "input_file": "postings/small_synthetic.txt",
+  "mock_responses": [
+    "Here is your data: {\"title\": \"Software Engineer\"",
+    "{\"title\": \"Software Engineer\", \"company\": \"TestCorp\", \"location\": \"Remote\", \"remote_policy\": \"remote\", \"salary_min\": 50000, \"salary_max\": 60000, \"currency\": \"EUR\", \"min_years_experience\": 3, \"english_level\": \"required\", \"tech_stack\": [\"Python\", \"Docker\", \"PostgreSQL\"]}"
+  ],
+  "expect": {
+    "title": {"match": "exact", "value": "Software Engineer"},
+    "remote_policy": {"match": "exact", "value": "remote"},
+    "min_years_experience": {"match": "exact", "value": 3}
+  }
+}

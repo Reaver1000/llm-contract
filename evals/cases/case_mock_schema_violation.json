@@ -1,0 +1,14 @@
+{
+  "name": "harness-retry-on-schema-violation",
+  "schema": "jobposting",
+  "mode": "mock",
+  "input_file": "postings/small_synthetic.txt",
+  "mock_responses": [
+    "{\"title\": \"Software Engineer\", \"company\": \"TestCorp\", \"location\": \"Remote\", \"remote_policy\": \"sometimes\", \"tech_stack\": []}",
+    "{\"title\": \"Software Engineer\", \"company\": \"TestCorp\", \"location\": \"Remote\", \"remote_policy\": \"remote\", \"salary_min\": 50000, \"salary_max\": 60000, \"currency\": \"EUR\", \"min_years_experience\": 3, \"tech_stack\": [\"Python\"]}"
+  ],
+  "expect": {
+    "remote_policy": {"match": "exact", "value": "remote"},
+    "salary_min": {"match": "approx", "value": 50000}
+  }
+}

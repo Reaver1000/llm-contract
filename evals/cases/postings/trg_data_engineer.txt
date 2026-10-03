@@ -1,0 +1,9 @@
+Junior Data Engineer & MarTech Specialist (Mobile Apps) (m/w/d) - Customlytics / Trg
+
+Remote within Germany · Entry · Permanent · Full time
+
+Customlytics is the leading app marketing agency and consultancy in the DACH region. You will work at the intersection of data infrastructure and marketing technology. You will support the setup, maintenance, and monitoring of clients' mobile app marketing and tracking systems, helping ensure data quality across data pipelines, Mobile Measurement Partners, and campaign analytics platforms.
+
+Your profile. Background in data engineering, analytics engineering, or a related discipline, with an interest in marketing data, tracking systems, and campaign attribution. Product feeds: basic understanding of product feed structures. Data and reporting: experience working with Excel or Google Sheets. Automation and AI tools: interest in tools such as ChatGPT, Make.com, or Google Sheets automation; no advanced experience required. Languages: fluent in English (spoken and written); German is a plus but not required.
+
+Remote Work: work remotely anywhere in Germany, and up to 90 days per year internationally. Office in Berlin Friedrichshain. Core working hours apply.

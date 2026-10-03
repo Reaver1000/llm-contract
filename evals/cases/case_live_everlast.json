@@ -1,0 +1,12 @@
+{
+  "name": "live-everlast-junior-softwareentwickler",
+  "schema": "jobposting",
+  "mode": "live",
+  "input_file": "postings/everlast_junior_dev.txt",
+  "expect": {
+    "title": {"match": "contains", "value": "entwickler"},
+    "remote_policy": {"match": "one_of", "value": ["remote", "hybrid"]},
+    "german_level": {"match": "one_of", "value": ["C1", "C2", "required", "native"]},
+    "min_years_experience": {"match": "is_null"}
+  }
+}
