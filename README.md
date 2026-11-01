@@ -96,3 +96,14 @@ Register it in `llm_contract/evals.py`, write a case file, done. `extract()` wor
 - Mock providers make the loop testable in CI without keys, and make the tests deterministic.
 - Token accounting is built in, because an extraction pipeline that hides its own cost is lying to you.
 - No agent framework, no tool use, no magic. This is the reliable twenty percent that every fancier thing needs anyway.
+
+---
+
+## Author
+
+**David Buchan** — Junior AI Engineer & Data Analyst
+- Fully remote worldwide · Erfurt, Germany (UK citizen)
+- Skills: Python, SQL, ETL, LLM APIs, n8n, machine learning, QA automation, test automation
+- Portfolio: https://reaver1000.github.io
+- LinkedIn: https://www.linkedin.com/in/david-a-buchan/
+- Hugging Face: https://huggingface.co/Reaver1000
